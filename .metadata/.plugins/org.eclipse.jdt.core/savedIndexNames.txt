@@ -1,5 +1,4 @@
 INDEX VERSION 1.131+C:\Users\jade\Desktop\BookStoreProject\.metadata\.plugins\org.eclipse.jdt.core
-<<<<<<< HEAD
 1845031563.index
 4236903459.index
 2420607698.index
@@ -33,38 +32,5 @@ INDEX VERSION 1.131+C:\Users\jade\Desktop\BookStoreProject\.metadata\.plugins\or
 1943575548.index
 4189299648.index
 3542799105.index
-3227056335.index
-=======
-1401678300.index
-2316260047.index
-1266582141.index
-144380394.index
-3602663931.index
-820357654.index
 3821372373.index
-1943575548.index
-4212195811.index
-3263897811.index
 3227056335.index
-2492909726.index
-531533494.index
-4236903459.index
-3852737441.index
-2899478204.index
-1860485910.index
-3421597620.index
-202638269.index
-1796593636.index
-2420607698.index
-3542799105.index
-3620901746.index
-1233919542.index
-1241298325.index
-1942359185.index
-3974719065.index
-4189299648.index
-897659091.index
-1424276091.index
-2197994780.index
-1845031563.index
->>>>>>> parent of 2f1298f... fuck in 23
