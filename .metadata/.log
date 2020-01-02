@@ -533,6 +533,7 @@ Contains: Missing jstl:jstl:jar:javadoc:1.2
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 04:46:55.603
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.epp.mpc.core 4 0 2020-01-02 05:38:30.950
 !MESSAGE Failed to stream using org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport@1edd0d26 - falling back to org.eclipse.epp.internal.mpc.core.util.TransportFactory$$Lambda$1228/234123424@3f18bdae: Connection failed
@@ -1791,3 +1792,5 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 09:22:34.816
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+=======
+>>>>>>> parent of 2f1298f... fuck in 23

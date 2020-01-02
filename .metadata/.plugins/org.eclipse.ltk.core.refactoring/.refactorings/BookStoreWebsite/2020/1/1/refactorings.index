@@ -1,5 +1,6 @@
 1577960600700	Rename package 'com.bookstore.entity.dao'
 1577960634242	Rename package 'com.bookstore.controllers'
+<<<<<<< HEAD
 1577973829323	Delete element
 1577973867526	Move compilation units
 1577973875676	Delete element
@@ -7,3 +8,5 @@
 1577984581500	Delete element
 1577984658599	Delete element
 1577985754619	Delete element
+=======
+>>>>>>> parent of 2f1298f... fuck in 23
