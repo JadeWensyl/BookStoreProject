@@ -471,6 +471,7 @@ Contains: Missing jstl:jstl:jar:javadoc:1.2
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 04:07:10.801
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 04:11:27.241
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -1758,3 +1759,5 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 09:05:40.437
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+=======
+>>>>>>> parent of 55c1385... 22
