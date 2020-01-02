@@ -473,6 +473,9 @@ Contains: Missing jstl:jstl:jar:javadoc:1.2
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 5f9ed27... gege
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 04:11:27.241
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -1761,6 +1764,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 09:05:40.437
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 55c1385... 22
 =======
@@ -1925,3 +1929,5 @@ org.xml.sax.SAXParseException; lineNumber: 26; columnNumber: 2; The content of e
 
 !ENTRY org.eclipse.ui.navigator.resources 4 0 2020-01-02 09:25:43.157
 !MESSAGE Could not acquire INavigatorContentService: Project Explorer not found.
+=======
+>>>>>>> parent of 5f9ed27... gege
