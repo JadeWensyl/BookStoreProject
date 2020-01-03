@@ -1,0 +1,55 @@
+package com.bookstore.dao;
+
+import static org.junit.Assert.*;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.bookstore.entity.Users;
+
+public class UserDAOTest {
+	private static EntityManagerFactory entityManagerFactory;
+	private static EntityManager entityManager;
+	private static UserDAO userDAO;
+	
+	@BeforeClass
+	public void setupClass() {
+		 entityManagerFactory = Persistence.createEntityManagerFactory("BookStoreWebsite");
+		 entityManager  = entityManagerFactory.createEntityManager();
+		
+	    userDAO = new UserDAO(entityManager);
+	}
+	
+	
+	@Test
+	public void testCreateUsers() {
+		Users user1 = new Users();
+		user1.setEmail("caingcoy@gmail.com");
+		user1.setFullName("bebe ko");
+		user1.setPassword("abcdefghijk");
+		
+		user1 = userDAO.create(user1);
+				
+		assertTrue(user1.getUserId() > 0);
+	}
+	
+	@Test
+	public  void testCreateUsersFieldsNotSet() {
+		Users user1 = new Users();
+		user1 = userDAO.create(user1);
+		
+		assertTrue(user1.getUserId() > 0);
+	}
+	
+	@AfterClass
+	public static void tearDownClass() {
+		entityManager.close();
+		entityManagerFactory.close();
+	}
+	
+}

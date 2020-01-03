@@ -1,0 +1,44 @@
+package com.bookstore.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class UserDAOTest {
+
+	@Test
+	public void testUserDAO() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCreateUsers() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testUpdate() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGet() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDelete() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testListAll() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCount() {
+		fail("Not yet implemented");
+	}
+
+}
