@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Evergreen Books - Online Books Store</title>
+</head>
+<body>
+	<div align="center">
+		<h1>This is header: Logo, Search, Menu</h1>
+	</div>
+
+	<div align="center">
+		<h1>This is main content: New books, Best-selling Books</h1>
+	</div>
+</body>
+</html>
