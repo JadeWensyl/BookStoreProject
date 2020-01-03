@@ -13,6 +13,24 @@ public class Users {
 	private String password;
 
 	
+	public Users() {
+		super();
+	}
+
+	public Users(String email, String fullName, String password) {
+		this.email = email;
+		this.fullName = fullName;
+		this.password = password;
+	}
+
+	
+	public Users(Integer userId, String email, String fullName, String password) {
+		this.userId = userId;
+		this.email = email;
+		this.fullName = fullName;
+		this.password = password;
+	}
+
 	@Column(name = "user_id")
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

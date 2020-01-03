@@ -22,16 +22,16 @@ public class UserDAO extends JpaDAO<Users> implements GenericDAO<Users> {
 	}
 
 	@Override
-	public Users get(Object t) {
-		// TODO Auto-generated method stub
-		return null;
+	public Users get(Object userId) {
+		return super.find(Users.class, userId);
 	}
 
 	@Override
-	public Users delete(Object t) {
-		// TODO Auto-generated method stub
-		return null;
+	public void delete(Object userId) {
+		  super.delete(Users.class, userId);
+		
 	}
+	
 
 	@Override
 	public List<Users> listAll() {
@@ -44,6 +44,10 @@ public class UserDAO extends JpaDAO<Users> implements GenericDAO<Users> {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+
+
+	
 
 	
 }
